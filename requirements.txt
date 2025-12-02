@@ -1,0 +1,12 @@
+mcp
+langchain
+langchain-openai
+langchain-community
+langchain-google-genai
+langchain-ollama
+arxiv
+faiss-cpu
+python-dotenv
+pymupdf
+google-generativeai
+requests
