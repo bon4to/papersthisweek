@@ -148,7 +148,7 @@ async def run_agent():
             contexto_rag = resultado_busca.content[0].text
             
             # Step 3: The Agent uses its local LLM to rank based on the received context
-            print("\n🤖 AGENTE: Gerando Ranking Final de Tech News...")
+            print("\n🤖 AGENT: Generating Final Ranking of Papers...")
             
             prompt = ChatPromptTemplate.from_template("""
             You are a tech news editor. Based ONLY on the context below (retrieved via RAG of academic papers),
